@@ -1,0 +1,39 @@
+.exercises-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os botões horizontalmente */
+}
+
+
+.exercises-box button {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exercises-box button:hover {
+  background-color: #3e8e41;
+}
+
+body {
+  background-image: url('formulas-cientificas-na-lousa_23-2148494010.jpg');
+  background-position: center; /* centralizar a imagem */
+}
+
+h1 {
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o texto */
+  font-size: 24px; /* Define o tamanho da fonte */
+  margin-top: 20px; /* Define uma margem superior para o título */
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
